@@ -4,14 +4,13 @@
   <h3>Modern, Fast, and Responsive Point of Sale (POS) Application</h3>
   <p>Built with ❤️ by <strong>Gyanesh Rai</strong></p>
   
-  [![Deploy Status](https://img.shields.io/badge/Deploy-Live-brightgreen.svg)](https://react-pos-system.vercel.app/)
+  [![Deploy Status](https://img.shields.io/badge/Deploy-Live-brightgreen.svg)](https://react-pos-system-ochre.vercel.app/)
 </div>
 
 ---
 
 ## 🚀 Live Demo
-**[View the Live POS System Here](https://react-pos-system.vercel.app/)** 
-> *Note: If your Vercel deployment URL is slightly different, you can update this link directly.*
+**[View the Live POS System Here](https://react-pos-system-ochre.vercel.app/)** 
 
 ## 💡 About The Project
 
