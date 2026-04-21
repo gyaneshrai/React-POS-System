@@ -22,13 +22,13 @@ export const OrderDetails: React.FC<OrderDetailsProps> = (props) => {
 										{product.qty} x {product.desc}  <Chip color="default" variant="filled" label={`id: ${product.id}`} sx={{height:"auto"}} size="small"/>
 									</Typography>
 									<Typography variant="body1" component="p">
-									({ccyFormat(product.unit)} €/u)
+									({ccyFormat(product.unit)} ₹)
 									</Typography>
 								</Box>
 							))}
 							<Divider sx={{m:1}}/>
 							<Typography variant="h6" component="p" sx={{textAlign:"right"}}>
-								<strong>Total: {ccyFormat(order.total)} €</strong>
+								<strong>Total: {ccyFormat(order.total)} ₹</strong>
 							</Typography>
 						</AccordionDetails>
 	);

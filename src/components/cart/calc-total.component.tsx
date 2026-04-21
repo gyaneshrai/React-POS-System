@@ -68,7 +68,7 @@ export const CalcTotal: React.FC = () => {
 	return (
 		<Paper className={classes["container-total"]} elevation={5} square>
 			<Typography variant="body1" component="h2" className={classes["total-font"]}>
-				Total: {ccyFormat(total)}€
+				Total: {ccyFormat(total)}₹
 			</Typography>
 			{enableCartButton()}
 			<Modal

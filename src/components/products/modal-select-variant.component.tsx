@@ -95,7 +95,7 @@ export const SelectVariant: React.FC<SelectVariantProps> = (props) => {
 							{PRODUCT_VARIANTS.map((variant) =>
 								product.id === variant.originalId ? (
 									<ToggleButton key={variant.id} value={variant.id}>
-										{variant.variantName} <br></br> {variant.price.toFixed(2)}€
+										{variant.variantName} <br></br> {variant.price.toFixed(2)}₹
 									</ToggleButton>
 								) : null
 							)}

@@ -63,7 +63,7 @@ export const ProductCard: React.FC<ProductCardProps> = (props) => {
 			</CardContent>
 			<CardActions className={classes["card-actions"]}>
 				<Typography gutterBottom variant="body2" component="p">
-					{price.toFixed(2)}€
+					{price.toFixed(2)}₹
 				</Typography>
 				{createButton()}
 			</CardActions>

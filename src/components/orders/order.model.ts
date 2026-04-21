@@ -15,24 +15,24 @@ export const DEFAULT_ORDERS: Order[] = [
 		products: [
 			{
 				name: "Hot chocolate",
-				price: 4.0,
+				price: 150.0,
 				category: "hot_drinks",
 				id: 3,
 			},
 			{
 				name: "Hot chocolate",
-				price: 4.0,
+				price: 150.0,
 				category: "hot_drinks",
 				id: 3,
 			},
 			{
 				name: "Donut",
-				price: 2.50,
+				price: 85.50,
 				category: "pastries",
 				id: 10,
 			},
 		],
-		total: 10.50,
+		total: 235.50,
 		date: "2024-06-19",
 		isCompleted: false
 	},
@@ -41,25 +41,25 @@ export const DEFAULT_ORDERS: Order[] = [
 		products: [
 			{
 				name: "Coffee with milk",
-				price: 3.50,
+				price: 80.0,
 				category: "hot_drinks",
 				id: 1,
 				variantName: "M",
 			},
 			{
 				name: "Tea",
-				price: 2.50,
+				price: 50.50,
 				category: "hot_drinks",
 				id: 2,
 			},
 			{
 				name: "Tea",
-				price: 2.50,
+				price: 50.50,
 				category: "hot_drinks",
 				id: 2,
 			},
 		],
-		total: 8.50,
+		total: 181.00,
 		date: "2024-06-20",
 		isCompleted: true
 	}

@@ -33,7 +33,7 @@ export const OrderItem: React.FC<OrderProps> = (props) => {
 								</Box>
 								<Box className={classes["accordion-badge-container"]}>
 									<Typography variant="body2" component="p">
-										Total: {ccyFormat(order.total)} €
+										Total: {ccyFormat(order.total)} ₹
 									</Typography>
 									{order.isCompleted ? (
 										<Chip color="success" variant="filled" label="Completed" sx={{height:"auto"}}/>
