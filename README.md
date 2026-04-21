@@ -1,81 +1,69 @@
-# Point of sale developed with React + MUI
+# 🛒 React POS System
 
-This project is a point of sale system developed using React and Material-UI (MUI). It provides a user-friendly interface for managing sales transactions ando orders. The React framework allows for efficient component-based development, while MUI provides a set of pre-designed UI components for a modern and visually appealing interface.
+<div align="center">
+  <h3>Modern, Fast, and Responsive Point of Sale (POS) Application</h3>
+  <p>Built with ❤️ by <strong>Gyanesh Rai</strong></p>
+  
+  [![Deploy Status](https://img.shields.io/badge/Deploy-Live-brightgreen.svg)](https://react-pos-system.vercel.app/)
+</div>
 
-[🚀 Live Demo](https://react-tpv.netlify.app/)
+---
 
-![Main Page](/public/imgs/readme/main-page.png)
+## 🚀 Live Demo
+**[View the Live POS System Here](https://react-pos-system.vercel.app/)** 
+> *Note: If your Vercel deployment URL is slightly different, you can update this link directly.*
 
-## Feature: Adding Products
+## 💡 About The Project
 
-The point of sale system allows employees to easily add products from both the product listing and the cart panel.
+This is a modern Point of Sale (POS) interface built to handle everyday retail transactions efficiently. Designed with a clean and intuitive User Interface, it allows cashiers and store managers to quickly navigate menus, manage orders, and process payments.
 
-![Add Products](/public/imgs/readme/add-products.gif)
+### 🌟 Key Features
+- **Intuitive UI:** Clean and responsive interface that works on different screen sizes.
+- **Fast Performance:** Lightning-fast rendering powered by Vite and React 18.
+- **Modern Components:** Built using Material-UI (MUI) for a sleek, professional look.
+- **Immediate Feedback:** Integrated toast notifications using \`notistack\` for user actions.
+- **Client-Side Routing:** Smooth navigation without page reloads using React Router.
 
+## 🛠️ Built With
 
-### Feedback Alerts
-To improve the user experience, alerts will be displayed when adding or removing products (also with orders).
+* **[React 18](https://reactjs.org/)** - UI Library
+* **[Vite](https://vitejs.dev/)** - Next Generation Frontend Tooling
+* **[TypeScript](https://www.typescriptlang.org/)** - Strongly Typed JavaScript
+* **[Material-UI (MUI)](https://mui.com/)** - UI Component Library
+* **[React Router](https://reactrouter.com/)** - Navigation
 
-![Feedback Alerts](/public/imgs/readme/feedback-alerts.gif)
+## 💻 Getting Started Locally
 
+To get a local copy up and running, follow these simple steps:
 
-## Feature: Product Variants
-In addition to adding products, the point of sale system also supports product variants. For example, you can specify different sizes for a particular product. This allows for more flexibility in managing inventory and providing options to customers.
+### Prerequisites
+Make sure you have Node.js installed. If not, download it from [nodejs.org](https://nodejs.org/).
 
-![Feedback Alerts](/public/imgs/readme/product-variants.gif)
+### Installation
 
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/gyaneshrai/React-POS-System.git
+   ```
+2. **Navigate into the directory:**
+   ```bash
+   cd React-POS-System
+   ```
+3. **Install NPM Packages:**
+   ```bash
+   npm install
+   ```
+4. **Start the Development Server:**
+   ```bash
+   npm run dev
+   ```
+5. **Open your browser:**
+   Navigate to the local URL provided in your terminal (usually \`http://localhost:5173/\`).
 
-## Feature: Edit Price for Specific Products
-The point of sale system includes the ability to edit the price of specific products. This functionality is useful for applying temporary discounts, promotions, or price adjustments. Employees can easily update the price of a product to reflect any changes in pricing strategy.
+## 👨‍💻 Author
 
-![Edit Price](/public/imgs/readme/edit-price.gif)
+**Gyanesh Rai**
+- GitHub: [@gyaneshrai](https://github.com/gyaneshrai)
 
-## Feature: Add Custom Products
-The point of sale system allows employees to add custom products that are not listed in the inventory. This feature is particularly useful for new products that have not been registered yet. By adding custom products, employees can easily include them in sales transactions and orders.
-
-![Add Custom Product](/public/imgs/readme/custom-products.gif)
-
-## Feature: Filter Products from Top Menu
-Filter products directly from the top menu. This feature provides a convenient way to quickly narrow down the product selection.
-
-![Filter Products](/public/imgs/readme/filter-products.gif)
-
-## Feature: Order Management
-Employees can register new orders and view detailed information about existing orders from the order panel.
-
-### Registering Orders
-Employees can easily register new orders by selecting products from the product listing and adding them to the cart. The system will calculate the total price and generate an order ID for each transaction.
-
-### Viewing Order Details
-The order panel provides a detailed view of each order, including the list of products, quantities, prices, and any applied discounts. Employees can also track the status of each order, such as whether it has been paid or fulfilled.
-
-![Order Management](/public/imgs/readme/register-orders.gif)
-
-## Responsive Design
-The point of sale system has been designed to be responsive, ensuring a seamless user experience across different devices, including mobile devices. Some changes have been made to optimize the layout for mobile screens.
-
-### Cart Window
-To improve usability on mobile devices, the cart panel has been moved to a separate window. This allows users to easily access and manage their cart without obstructing the main interface.
-
-### Quantity Indicator in Top Menu
-To provide a quick overview of the number of items in the cart, a quantity indicator has been added to the top menu. 
-
-These changes enhance the mobile experience of the point of sale system, making it more user-friendly and accessible on a variety of devices.
-
-![Mobile Demo](/public/imgs/readme/mobile-demo.gif)
-
-## Run the project
-To run the project, follow these steps:
-
-1. Open your terminal or command prompt.
-2. Run the following command to install the project dependencies:
-	```
-	npm install
-	```
-4. Once the installation is complete, run the following command to start the development server:
-	```
-	npm run dev
-	```
-5. The project will now be running locally on your machine. You can access it by opening your web browser and navigating to `http://localhost:5173`.
-
-That's it! You should now be able to see and interact with the point of sale system in your browser.
+---
+*Feel free to star ⭐ this repository if you find it helpful!*
